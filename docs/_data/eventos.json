@@ -1,0 +1,36 @@
+[
+    {
+        "dia_da_semana": "Terça-feira",
+        "eventos": [
+            {
+                "nome": "Evento 1",
+                "descricao": "Descrição ...",
+                "hora_de_inicio": "12:30",
+                "hora_de_termino": "13:30",
+                "palestrantes": [
+                    {
+                        "nome" : "Erika Sayuri Koga di Napoli"
+                    },
+                    {
+                        "nome" : "Marcos Hideyuki Yokoyama" 
+                    }
+                ]
+            },
+            {
+                "nome": "Evento 2",
+                "descrição": "Descrição ...",
+                "hora_de_inicio": "12:30",
+                "hora_de_termino": "13:30",
+                "palestrantes": [
+                    {
+                        "nome" : "Erika Sayuri Koga di Napoli"
+                    }
+                ]
+            }
+
+
+        ]
+        
+    }
+    
+]
