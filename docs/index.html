@@ -1,0 +1,54 @@
+---
+
+
+---
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3> Palestrantes </h3>
+    <ul>
+        {% for palestrante in site.data.palestrantes %}
+            <li> 
+                <h4> {{ palestrante.nome }}</h4>    
+                <p> {{ palestrante.titulo }}</p>
+                <p> {{ palestrante.email }}</p>
+            
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h3> Programação </h3>
+
+    <ul>
+        {% for dia in site.data.eventos %}
+        <li>  
+            <h4>{{ dia.dia_da_semana }}</h4>
+            {% for evento in dia.eventos %}
+
+                <span style="display:inline">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span> <h5> {{ evento.nome }} </h5>
+                <p> {{ evento.descricao }} </p>
+                {% for palestrante in site.data.palestrantes %}
+                    {% for x in evento.palestrantes %}
+                        {% if palestrante.nome == x.nome %}
+                            {{ palestrante.email }}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                <p>=====================================</p>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
