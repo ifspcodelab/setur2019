@@ -118,6 +118,157 @@
 
         ]
 
+    },
+
+    {
+        "dia_da_semana": "Quarta-feira",
+        "data": "11/09/2019",
+        "eventos": [
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "local": "Auditorio Civil",
+                "nome": "O Papel do Pesquisador em Turismo no Brasil",
+                "descricao": "Descrição ...",
+
+                "capacidade": "",
+                "palestrantes": [{
+                        "nome": "Gabriela Ferreira Camargo (Mestranda EACH)"
+                    }
+
+                ]
+            },
+
+            {
+                "tipo": "Lançamento de Livros",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "sala 330",
+                "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
+                "descrição": "Descrição ...",
+
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Camila C. G. Fernandez, Leandro R. G. Fernandez, Tiago Juliano"
+                }]
+            },
+
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Lab. A&B",
+                "nome": "Massas Coloridas",
+                "descrição": "Descrição ...",
+
+                "capacidade": "16",
+                "palestrantes": [{
+                    "nome": "Dennis Fujita"
+                }]
+            },
+
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Lubtur",
+                "nome": "Turismo 4.0: Ferramentas para Planejamento e Elaboração de Roteiros de Viagens",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Érika S. K. di Napoli; Rosana B. dos Santos"
+                }]
+            },
+
+            {
+                "tipo": "Feira de Livros",
+                "hora_de_inicio": " ",
+                "hora_de_termino": " ",
+                "local": "Saguão IFSP",
+                "nome": "Exposição de Livros",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "Livre",
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
+            },
+
+            {
+                "tipo": "Visita Técnica",
+                "hora_de_inicio": "14:00",
+                "hora_de_termino": "17:00",
+                "local": "Externo",
+                "nome": "Av. Paulista (Itaú Cultural e SESC)",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "30",
+                "palestrantes": [{
+                    "nome": "Marina Monteiro da Silva"
+                }]
+            },
+
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "Auditório SP1",
+                "nome": "Agenciamento e Tendências",
+                "descrição": "Descrição ...",
+                
+                "capacidade": " ",
+                "palestrantes": [{
+                    "nome": "Rodermil Pizzo (diretor de unidades da CVC)"
+                }]
+            },
+
+            {
+                "tipo": "Lançamento de Livros",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "11:30",
+                "local": "Sala 330",
+                "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Camila C. G. Fernandez, Douglas A. Dias, Leandro R. G. Fernandez, Tiago Juliano"
+                }]
+            },
+
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
+                "local": "Sala 332A",
+                "nome": "Decoração em Meios de Hospedagem",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Simone Cardoso"
+                }]
+            },
+
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:00",
+                "local": "Sala 332",
+                "nome": "Dinâmicas e Jogos para Gestão de Pessoas",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Marcos Hideyuki Yokoyama"
+                }]
+            }
+
+        ]
+
     }
+
 
 ]
