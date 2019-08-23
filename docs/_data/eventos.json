@@ -3,27 +3,74 @@
         "dia_da_semana": "Terça-feira",
         "eventos": [
             {
-                "nome": "Evento 1",
+                "nome": "O papel da DETUR para a Segurança do Turista",
                 "descricao": "Descrição ...",
-                "hora_de_inicio": "12:30",
-                "hora_de_termino": "13:30",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "tipo" : "Palestra",
+                "local": "Auditorio ELO2",
+                "capacidade": "",
                 "palestrantes": [
                     {
-                        "nome" : "Erika Sayuri Koga di Napoli"
-                    },
+                        "nome" : "Fernanda Herbella"
+                    }
+                    
+                ]
+            },
+            {
+                "nome": "Dinâmicas e Jogos para gestão de pessoas",
+                "descrição": "Descrição ...",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "tipo": "Workshop",
+                "local": "sala 332",
+                "capacidade": "40",
+                "palestrantes": [
                     {
-                        "nome" : "Marcos Hideyuki Yokoyama" 
+                        "nome" : "Marcos Hideyuki Yokoyama"
+                    }
+                ]
+            },
+            
+            {
+                "nome": "Presença Armênia na Cidade de São Paulo",
+                "descrição": "Descrição ...",
+                "hora_de_inicio": "08:00",
+                "hora_de_termino": "12:00",
+                "tipo": "Visita tecnica",
+                "local": "Externo",
+                "capacidade": "50",
+                "palestrantes": [
+                    {
+                        "nome" : "Mariana Papazian"
                     }
                 ]
             },
             {
-                "nome": "Evento 2",
+                "nome": "Trabalhos Desenvolvidos pelos Alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
-                "hora_de_inicio": "12:30",
-                "hora_de_termino": "13:30",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "tipo": "Apresentão de Trabalho",
+                "local": "Saguão IFSP",
+                "capacidade": "livre",
                 "palestrantes": [
                     {
-                        "nome" : "Erika Sayuri Koga di Napoli"
+                        "nome" : "Centro Acadêmico"
+                    }
+                ]
+            },
+            {
+                "nome": "Dinâmicas e Jogos para gestão de pessoas",
+                "descrição": "Descrição ...",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "tipo": "Workshop",
+                "local": "sala 332",
+                "capacidade": "",
+                "palestrantes": [
+                    {
+                        "nome" : "Marcos Hideyuki Yokoyama"
                     }
                 ]
             }

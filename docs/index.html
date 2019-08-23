@@ -35,8 +35,9 @@
             <h4>{{ dia.dia_da_semana }}</h4>
             {% for evento in dia.eventos %}
 
-                <span style="display:inline">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span> <h5> {{ evento.nome }} </h5>
-                <p> {{ evento.descricao }} </p>
+                <span>{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span> <h5> {{ evento.nome }} </h5>
+                <p> {{ evento.tipo }} </p>
+                <p> {{ evento.descricao }}</p>
                 {% for palestrante in site.data.palestrantes %}
                     {% for x in evento.palestrantes %}
                         {% if palestrante.nome == x.nome %}
