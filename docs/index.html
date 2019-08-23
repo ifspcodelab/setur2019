@@ -6,7 +6,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +17,13 @@
 
     <h3> Palestrantes </h3>
     <ul>
-        {% for palestrante in site.data.palestrantes %}
-            <li> 
+        {% for palestrante in site.palestrantes %}
+            <li>
+                <a href="{{palestrante.url}}">
                 <h4> {{ palestrante.nome }}</h4>    
                 <p> {{ palestrante.titulo }}</p>
                 <p> {{ palestrante.email }}</p>
-            
+            </a> 
             </li>
         {% endfor %}
     </ul>
@@ -38,7 +39,7 @@
                 <span>{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span> <h5> {{ evento.nome }} </h5>
                 <p> {{ evento.tipo }} </p>
                 <p> {{ evento.descricao }}</p>
-                {% for palestrante in site.data.palestrantes %}
+                {% for palestrante in site.palestrantes %}
                     {% for x in evento.palestrantes %}
                         {% if palestrante.nome == x.nome %}
                             {{ palestrante.email }}
