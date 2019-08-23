@@ -1,83 +1,123 @@
-[
-    {
+[{
         "dia_da_semana": "Terça-feira",
+        "data": "10/09/2019",
         "eventos": [
             {
+                "tipo": "Palestra",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "local": "Auditorio ELO2",
                 "nome": "O papel da DETUR para a Segurança do Turista",
                 "descricao": "Descrição ...",
-                "hora_de_inicio": "10:00",
-                "hora_de_termino": "11:30",
-                "tipo" : "Palestra",
-                "local": "Auditorio ELO2",
+
                 "capacidade": "",
-                "palestrantes": [
-                    {
-                        "nome" : "Fernanda Herbella"
+                "palestrantes": [{
+                        "nome": "Fernanda Herbella"
                     }
-                    
+
                 ]
             },
+
             {
-                "nome": "Dinâmicas e Jogos para gestão de pessoas",
-                "descrição": "Descrição ...",
+                "tipo": "Workshop",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
-                "tipo": "Workshop",
                 "local": "sala 332",
-                "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome" : "Marcos Hideyuki Yokoyama"
-                    }
-                ]
-            },
-            
-            {
-                "nome": "Presença Armênia na Cidade de São Paulo",
+                "nome": "Dinâmicas e Jogos para gestão de pessoas",
                 "descrição": "Descrição ...",
+
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Marcos Hideyuki Yokoyama"
+                }]
+            },
+
+            {
+                "tipo": "Visita tecnica",
                 "hora_de_inicio": "08:00",
                 "hora_de_termino": "12:00",
-                "tipo": "Visita tecnica",
                 "local": "Externo",
-                "capacidade": "50",
-                "palestrantes": [
-                    {
-                        "nome" : "Mariana Papazian"
-                    }
-                ]
-            },
-            {
-                "nome": "Trabalhos Desenvolvidos pelos Alunos de Gestão de Turismo",
+                "nome": "Presença Armênia na Cidade de São Paulo",
                 "descrição": "Descrição ...",
+
+                "capacidade": "50",
+                "palestrantes": [{
+                    "nome": "Mariana Papazian"
+                }]
+            },
+
+            {
+                "tipo": "Apresentão de Trabalho",
                 "hora_de_inicio": "10:00",
                 "hora_de_termino": "11:30",
-                "tipo": "Apresentão de Trabalho",
                 "local": "Saguão IFSP",
-                "capacidade": "livre",
-                "palestrantes": [
-                    {
-                        "nome" : "Centro Acadêmico"
-                    }
-                ]
-            },
-            {
-                "nome": "Dinâmicas e Jogos para gestão de pessoas",
+                "nome": "Trabalhos Desenvolvidos pelos Alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
-                "hora_de_inicio": "09:30",
-                "hora_de_termino": "11:30",
+                
+                "capacidade": "livre",
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
+            },
+
+            {
+                "tipo": "Visita Técnica",
+                "hora_de_inicio": "14:00",
+                "hora_de_termino": "17:00",
+                "local": "Externo",
+                "nome": "Av. Paulista (MASP e FIESP)",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "30",
+                "palestrantes": [{
+                    "nome": "Leandro R. G. Fernandez"
+                }]
+            },
+
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "sala 330",
+                "nome": "Turismo Industrial",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Fernando Bonisio (Secretário de Turismo SBC)"
+                }]
+            },
+
+            {
                 "tipo": "Workshop",
-                "local": "sala 332",
-                "capacidade": "",
-                "palestrantes": [
-                    {
-                        "nome" : "Marcos Hideyuki Yokoyama"
-                    }
-                ]
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:00",
+                "local": "Lab. A&B",
+                "nome": "Massas Coloridas",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "16",
+                "palestrantes": [{
+                    "nome": "Dennis Fujita"
+                }]
+            },
+
+            {
+                "tipo": "Apresentação de Trabalhos",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "Saguão IFSP",
+                "nome": "Trabalhos desenvolvidos pelos alunos de Gestão de Turismo",
+                "descrição": "Descrição ...",
+                
+                "capacidade": "Livre",
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
             }
 
-
         ]
-        
+
     }
-    
+
 ]
