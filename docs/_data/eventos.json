@@ -1,4 +1,5 @@
-[{
+[
+    {
         "dia_da_semana": "Terça-feira",
         "data": "10/09/2019",
         "eventos": [
@@ -9,15 +10,13 @@
                 "local": "Auditorio ELO2",
                 "nome": "O papel da DETUR para a Segurança do Turista",
                 "descricao": "Descrição ...",
-
                 "capacidade": "",
-                "palestrantes": [{
+                "palestrantes": [
+                    {
                         "nome": "Fernanda Herbella"
                     }
-
                 ]
             },
-
             {
                 "tipo": "Workshop",
                 "hora_de_inicio": "09:30",
@@ -25,13 +24,13 @@
                 "local": "sala 332",
                 "nome": "Dinâmicas e Jogos para gestão de pessoas",
                 "descrição": "Descrição ...",
-
                 "capacidade": "40",
-                "palestrantes": [{
-                    "nome": "Marcos Hideyuki Yokoyama"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Marcos Hideyuki Yokoyama"
+                    }
+                ]
             },
-
             {
                 "tipo": "Visita tecnica",
                 "hora_de_inicio": "08:00",
@@ -39,13 +38,13 @@
                 "local": "Externo",
                 "nome": "Presença Armênia na Cidade de São Paulo",
                 "descrição": "Descrição ...",
-
                 "capacidade": "50",
-                "palestrantes": [{
-                    "nome": "Mariana Papazian"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Mariana Papazian"
+                    }
+                ]
             },
-
             {
                 "tipo": "Apresentão de Trabalho",
                 "hora_de_inicio": "10:00",
@@ -53,13 +52,13 @@
                 "local": "Saguão IFSP",
                 "nome": "Trabalhos Desenvolvidos pelos Alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
-                
                 "capacidade": "livre",
-                "palestrantes": [{
-                    "nome": "Centro Acadêmico"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Centro Acadêmico"
+                    }
+                ]
             },
-
             {
                 "tipo": "Visita Técnica",
                 "hora_de_inicio": "14:00",
@@ -67,13 +66,13 @@
                 "local": "Externo",
                 "nome": "Av. Paulista (MASP e FIESP)",
                 "descrição": "Descrição ...",
-                
                 "capacidade": "30",
-                "palestrantes": [{
-                    "nome": "Leandro R. G. Fernandez"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Leandro R. G. Fernandez"
+                    }
+                ]
             },
-
             {
                 "tipo": "Palestra",
                 "hora_de_inicio": "19:00",
@@ -81,13 +80,13 @@
                 "local": "sala 330",
                 "nome": "Turismo Industrial",
                 "descrição": "Descrição ...",
-                
                 "capacidade": "40",
-                "palestrantes": [{
-                    "nome": "Fernando Bonisio (Secretário de Turismo SBC)"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Fernando Bonisio (Secretário de Turismo SBC)"
+                    }
+                ]
             },
-
             {
                 "tipo": "Workshop",
                 "hora_de_inicio": "19:00",
@@ -95,13 +94,13 @@
                 "local": "Lab. A&B",
                 "nome": "Massas Coloridas",
                 "descrição": "Descrição ...",
-                
                 "capacidade": "16",
-                "palestrantes": [{
-                    "nome": "Dennis Fujita"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Dennis Fujita"
+                    }
+                ]
             },
-
             {
                 "tipo": "Apresentação de Trabalhos",
                 "hora_de_inicio": "19:00",
@@ -109,11 +108,352 @@
                 "local": "Saguão IFSP",
                 "nome": "Trabalhos desenvolvidos pelos alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
-                
                 "capacidade": "Livre",
-                "palestrantes": [{
-                    "nome": "Centro Acadêmico"
-                }]
+                "palestrantes": [
+                    {
+                        "nome": "Centro Acadêmico"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dia_da_semana": "Quarta-feira",
+        "data": "11/09/2019",
+        "eventos": [
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "local": "Auditorio Civil",
+                "nome": "O Papel do Pesquisador em Turismo no Brasil",
+                "descricao": "Descrição ...",
+                "capacidade": "",
+                "palestrantes": [
+                    {
+                        "nome": "Gabriela Ferreira Camargo (Mestranda EACH)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Lançamento de Livros",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "sala 330",
+                "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Camila C. G. Fernandez, Leandro R. G. Fernandez, Tiago Juliano"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Lab. A&B",
+                "nome": "Massas Coloridas",
+                "descrição": "Descrição ...",
+                "capacidade": "16",
+                "palestrantes": [
+                    {
+                        "nome": "Dennis Fujita"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Lubtur",
+                "nome": "Turismo 4.0: Ferramentas para Planejamento e Elaboração de Roteiros de Viagens",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Érika S. K. di Napoli; Rosana B. dos Santos"
+                    }
+                ]
+            },
+            {
+                "tipo": "Feira de Livros",
+                "hora_de_inicio": " ",
+                "hora_de_termino": " ",
+                "local": "Saguão IFSP",
+                "nome": "Exposição de Livros",
+                "descrição": "Descrição ...",
+                "capacidade": "Livre",
+                "palestrantes": [
+                    {
+                        "nome": "Centro Acadêmico"
+                    }
+                ]
+            },
+            {
+                "tipo": "Visita Técnica",
+                "hora_de_inicio": "14:00",
+                "hora_de_termino": "17:00",
+                "local": "Externo",
+                "nome": "Av. Paulista (Itaú Cultural e SESC)",
+                "descrição": "Descrição ...",
+                "capacidade": "30",
+                "palestrantes": [
+                    {
+                        "nome": "Marina Monteiro da Silva"
+                    }
+                ]
+            },
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "Auditório SP1",
+                "nome": "Agenciamento e Tendências",
+                "descrição": "Descrição ...",
+                "capacidade": " ",
+                "palestrantes": [
+                    {
+                        "nome": "Rodermil Pizzo (diretor de unidades da CVC)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Lançamento de Livros",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "11:30",
+                "local": "Sala 330",
+                "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Camila C. G. Fernandez, Douglas A. Dias, Leandro R. G. Fernandez, Tiago Juliano"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
+                "local": "Sala 332A",
+                "nome": "Decoração em Meios de Hospedagem",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Simone Cardoso"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:00",
+                "local": "Sala 332",
+                "nome": "Dinâmicas e Jogos para Gestão de Pessoas",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Marcos Hideyuki Yokoyama"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dia_da_semana": "Quinta-feira",
+        "data": "12/09/2019",
+        "eventos": [
+            {
+                "tipo": "Mesa Redonda",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Auditório SP1",
+                "nome": "Viagens e Mídias Digitais: o papel dos comunicadores virtuais no Turismo",
+                "descrição": "Descrição ...",
+                "capacidade": "",
+                "palestrantes": [
+                    {
+                        "nome": "Vinicyus Vieira (Viagem'Grafia)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "11:30",
+                "local": "Sala 330",
+                "nome": "Treinamento em Recepção Hoteleira",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Simone Cardoso"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "11:30",
+                "local": "Lab. A&B",
+                "nome": "Sensorialidade de Vinhos Brancos e Tintos",
+                "descrição": "Descrição ...",
+                "capacidade": "20",
+                "palestrantes": [
+                    {
+                        "nome": "Raul José de Souza"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Labtur",
+                "nome": "Plataforma Brasil e Comitê de Ética em Pesquisa",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Camila C. G. Fernandez"
+                    }
+                ]
+            },
+            {
+                "tipo": "Feira de Livros",
+                "hora_de_inicio": "",
+                "hora_de_termino": "",
+                "local": "Saguão IFSP",
+                "nome": "Exposição de Livros",
+                "descrição": "Descrição ...",
+                "capacidade": "Livre",
+                "palestrantes": [
+                    {
+                        "nome": "Centro Acadêmico"
+                    }
+                ]
+            },
+            {
+                "tipo": "Visita Técnica",
+                "hora_de_inicio": "14:00",
+                "hora_de_termino": "17:00",
+                "local": "Externo",
+                "nome": "Av. Paulista (Japan House e Itau Cultural)",
+                "descrição": "Descrição ...",
+                "capacidade": "30",
+                "palestrantes": [
+                    {
+                        "nome": "Georgia N. Garcia"
+                    }
+                ]
+            },
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "Auditório MEC",
+                "nome": "Semiótica do Turismo: a Mudança da Marca Brasil",
+                "descrição": "Descrição ...",
+                "capacidade": "",
+                "palestrantes": [
+                    {
+                        "nome": "Prof.ª Dr.ª Cyhnthia Mello (Semioturismo)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "20:30",
+                "local": "Sala 330",
+                "nome": "O Movimento Cooperativo das Abelhas",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Fábio Lizier (Farmacêutico e agricultor)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
+                "local": "Labtur",
+                "nome": "Treinamento em Recepção Hoteleira",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Simone Cardoso"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
+                "local": "Sala 332",
+                "nome": "Os Cursos FIC do Turismo e Hospitalidade",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Raul José de Souza"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "dia da semana": "Sexta-feira",
+        "data": "13/09/2019",
+        "eventos": [
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Sala 330",
+                "nome": "Azeites, Azeitonas e Oleoturismo",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [
+                    {
+                        "nome": "Bruno Chiavelli (Eng. Agrônomo)"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "14:00",
+                "hora_de_termino": "16:00",
+                "local": "Lab. A&B",
+                "nome": "Reaproveitamento de Alimentos",
+                "descrição": "Descrição ...",
+                "capacidade": "20",
+                "palestrantes": [
+                    {
+                        "nome": "Rodrigo Delphino"
+                    }
+                ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "19:30",
+                "hora_de_termino": "21:30",
+                "local": "Lab. A&B",
+                "nome": "Reaproveitamento de Alimentos",
+                "descrição": "Descrição ...",
+                "capacidade": "20",
+                "palestrantes": [
+                    {
+                        "nome": "Rodrigo Delphino"
+                    }
+                ]
             }
         ]
     }
