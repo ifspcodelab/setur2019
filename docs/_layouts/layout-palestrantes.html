@@ -1,23 +1,19 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.titulo }}</title>
-</head>
-<body>
+
     <h1> {{ page.nome }}</h1>
     <ul>
-        <li> titulo: {{ page.titulo }} </li>
+        {% if page.titulo != nil and page.titulo != '' %}
+            <li> titulo: {{ page.titulo }} </li>
+        {% endif %}
+        {% if page.link_lattes != nil and page.link_lattes  != '' %}
         <li> <a href="{{page.link_lattes}}" target="blank"> lattes </a></li>
+        {% endif %}
+        {% if page.email != nil and page.email  != '' %}
         <li> email: {{ page.email }} </li>
+        {% endif %}
     </ul>
     {{ content }}
 
 
-</body>
-</html>
