@@ -31,7 +31,7 @@ h1, h2 {
 /** Main Header **/
 .main-header {
   position: relative;
-  background: #22162C url('/assets/img/bg-image-360.jpg');
+  background: #22162C url('../../assets/img/bg-image-360.jpg');
   height: 19rem;
   background-repeat: no-repeat;
   background-size: cover;
