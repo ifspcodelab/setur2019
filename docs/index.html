@@ -22,19 +22,34 @@ layout: layout
         quibusdam voluptate ut.</p>
     <div class="section-content">
         <div class="tour">
-            <img src="assets/img/fiesp-p.jpg" alt="" class="tour-img">
+            <picture>
+                <source srcset="assets/img/fiesp-p.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/fiesp-m.jpg" media="(max-width: 1368px)">
+                <source srcset="assets/img/fiesp-g.jpg" media="(min-width: 1368px)">
+                <img src="assets/img/fiesp-p.jpg" alt="" class="speaker-img">
+            </picture>
             <h3 class="tour-title">Fiesp</h3>
             <p class="tour-description">A sede da Federação das Indústrias do Estado de São Paulo (Fiesp), um edifício
                 de formato inusitado na Avanida Paulista.</p>
         </div>
         <div class="tour">
-            <img src="assets/img/japan-house-p.jpg" alt="" class="tour-img">
+            <picture>
+                <source srcset="assets/img/japan-house-p.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/japan-house-m.jpg" media="(max-width: 1368px)">
+                <source srcset="assets/img/japan-house-g.jpg" media="(min-width: 1368px)">
+                <img src="assets/img/japan-house-p.jpg" alt="" class="speaker-img">
+            </picture>
             <h3 class="tour-title">Japan House</h3>
             <p class="tour-description">Ponto de difusão de todos os elementos da genuína cultura japonesa. Um lugar
                 equilibrado, inovador e diferenciado.</p>
         </div>
         <div class="tour">
-            <img src="assets/img/masp-p.jpg" alt="" class="tour-img">
+            <picture>
+                <source srcset="assets/img/masp-p.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/masp-m.jpg" media="(max-width: 1368px)">
+                <source srcset="assets/img/masp-g.jpg" media="(min-width: 1368px)">
+                <img src="assets/img/masp-p.jpg" alt="" class="speaker-img">
+            </picture>
             <h3 class="tour-title">Masp</h3>
             <p class="tour-description">Museu de Arte de São Paulo Assis Chateaubriand é uma das mais importantes
                 instituições culturais brasileiras.</p>
@@ -49,14 +64,20 @@ layout: layout
         quibusdam voluptate ut.</p>
     <div class="section-content">
         {% for palestrante in site.data.palestrantes %}
-            <div class="speaker">
-                <img src="assets/img/bruno-p.jpg" alt="" class="speaker-img">
-                <div class="speaker-text">
-                    <h3 class="speaker-title">{{palestrante.nome}}</h3>
-                    <p class="speaker-description">{{ palestrante.titulo }}</p>
-                    <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
-                </div>
+        <div class="speaker">
+            <picture class="speaker-img">
+                <source srcset="{{ palestrante.foto }}-p.jpg" media="(max-width: 720px)">
+                <source srcset="{{ palestrante.foto }}-m.jpg" media="(max-width: 1368px)">
+                <source srcset="{{ palestrante.foto }}-g.jpg" media="(min-width: 1368px)">
+                <img src="assets/img/default-p.jpg" alt="" class="speaker-img">
+            </picture>
+
+            <div class="speaker-text">
+                <h3 class="speaker-title">{{palestrante.nome}}</h3>
+                <p class="speaker-description">{{ palestrante.titulo }}</p>
+                <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
             </div>
+        </div>
         {% endfor %}
     </div>
 </section>
@@ -68,30 +89,30 @@ layout: layout
     <div class="section-content">
         <div class="schedule">
             {% for dia in site.data.eventos %}
-                <h3 class="schedule-day">{{ dia.dia_da_semana }}</h3>
-                    {% for evento in dia.eventos %}
-                        <div class="event">
-                            <p class="event-time">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }}</p>
-                            <div class="event-text">
-                                <a href="#">
-                                    <h4>{{ evento.nome }}</h4>
-                                </a>
-                                <p>Local: {{ evento.local }}</p>
-                            </div>
-                            <div class="event-speakers">
-                                {% for palestrante in site.data.palestrantes %}
-                                    {% for x in evento.palestrantes %}
-                                        {% if palestrante.nome == x.nome %}
-                                            <img src="{{ palestrante.foto }}" alt="palestrante">
-                                        {% else %}
+            <h3 class="schedule-day">{{ dia.dia_da_semana }}</h3>
+            {% for evento in dia.eventos %}
+            <div class="event">
+                <p class="event-time">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }}</p>
+                <div class="event-text">
+                    <a href="#">
+                        <h4>{{ evento.nome }}</h4>
+                    </a>
+                    <p>Local: {{ evento.local }}</p>
+                </div>
+                <div class="event-speakers">
+                    {% for palestrante in site.data.palestrantes %}
+                    {% for x in evento.palestrantes %}
+                    {% if palestrante.nome == x.nome %}
+                    <img src="{{ palestrante.foto }}-p.jpg" alt="palestrante">
+                    {% else %}
 
 
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endfor %}
-                            </div>
-                        </div>
+                    {% endif %}
                     {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
             {% endfor %}
         </div>
     </div>
