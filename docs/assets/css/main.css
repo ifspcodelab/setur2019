@@ -1,39 +1,3 @@
-@font-face {
-  font-family: 'Zilla Slab Highlight';
-  font-style: normal;
-  font-weight: 700;
-  src: url(/assets/fonts/Zilla_Slab_Highlight/ZillaSlabHighlight-Bold.ttf);
-}
-
-@font-face {
-  font-family: 'Zilla Slab Highlight';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/fonts/Zilla_Slab_Highlight/ZillaSlabHighlight-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Zilla Slab';
-  font-style: normal;
-  font-weight: 500;
-  src: url(assets/fonts/Zilla_Slab/ZillaSlab-Medium.ttf);
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/fonts/Open_Sans/OpenSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url(/assets/fonts/Open_Sans/OpenSans-Bold.ttf);
-}
-
-
 /** Reset **/
 
 html {
