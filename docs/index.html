@@ -1,0 +1,457 @@
+---
+layout: layout
+
+---
+
+<header id="home" class="main-header">
+    <nav class="main-header-navbar">
+        <a href="#home" class="main-header-brand">Setur<span>2019</span></a>
+        <ul class="main-header-menu">
+            <li><a href="#section-tour">Visitas Técnicas</a></li>
+            <li><a href="#section-speakers">Palestrantes</a></li>
+            <li><a href="#section-schedule">Programação</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+    </nav>
+    <h1 class="main-header-headline">Semana do Turismo</h1>
+</header>
+
+<section class="section section-tour">
+    <h2 id="section-tour" class="section-heading">Visitas Técnicas</h2>
+    <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
+        quibusdam voluptate ut.</p>
+    <div class="section-content">
+        <div class="tour">
+            <img src="assets/img/fiesp-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Fiesp</h3>
+            <p class="tour-description">A sede da Federação das Indústrias do Estado de São Paulo (Fiesp), um edifício
+                de formato inusitado na Avanida Paulista.</p>
+        </div>
+        <div class="tour">
+            <img src="assets/img/japan-house-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Japan House</h3>
+            <p class="tour-description">Ponto de difusão de todos os elementos da genuína cultura japonesa. Um lugar
+                equilibrado, inovador e diferenciado.</p>
+        </div>
+        <div class="tour">
+            <img src="assets/img/masp-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Masp</h3>
+            <p class="tour-description">Museu de Arte de São Paulo Assis Chateaubriand é uma das mais importantes
+                instituições culturais brasileiras.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section section-speakers">
+    <h2 id="section-speakers" class="section-heading">Palestrantes</h2>
+    <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
+        quibusdam voluptate ut.</p>
+    <div class="section-content">
+        {% for palestrante in site.data.palestrantes %}
+            <div class="speaker">
+                <img src="assets/img/bruno-p.jpg" alt="" class="speaker-img">
+                <div class="speaker-text">
+                    <h3 class="speaker-title">{{palestrante.nome}}</h3>
+                    <p class="speaker-description">{{ palestrante.titulo }}</p>
+                    <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section section-schedule">
+    <h2 id="section-schedule" class="section-heading">Programação</h2>
+    <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
+        quibusdam voluptate ut.</p>
+    <div class="section-content">
+        <div class="schedule">
+            {% for dia in site.data.eventos %}
+                <h3 class="schedule-day">{{ dia.dia_da_semana }}</h3>
+                    {% for evento in dia.eventos %}
+                        <div class="event">
+                            <p class="event-time">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }}</p>
+                            <div class="event-text">
+                                <a href="#">
+                                    <h4>{{ evento.nome }}</h4>
+                                </a>
+                                <p>Local: {{ evento.local }}</p>
+                            </div>
+                            <div class="event-speakers">
+                                {% for palestrante in site.data.palestrantes %}
+                                    {% for x in evento.palestrantes %}
+                                        {% if palestrante.nome == x.nome %}
+                                            <img src="{{ palestrante.foto }}" alt="palestrante">
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<h3> Programação </h3>
+<ul>
+    {% for dia in site.data.eventos %}
+    <li>
+        <h4>{{ dia.dia_da_semana }}</h4>
+        {% for evento in dia.eventos %}
+
+        <span>{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span>
+        <h5> {{ evento.nome }} </h5>
+        <p> {{ evento.tipo }} </p>
+        <p> {{ evento.descricao }}</p>
+        {% for palestrante in site.data.palestrantes %}
+        {% for x in evento.palestrantes %}
+        {% if palestrante.nome == x.nome %}
+        {{ palestrante.email }}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        <p>=====================================</p>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
