@@ -69,7 +69,7 @@
                 "capacidade": "30",
                 "palestrantes": [
                     {
-                        "nome": "Leandro R. G. Fernandez"
+                        "nome": "Leandro Rodrigues Gonzalez Fernandez"
                     }
                 ]
             },
@@ -97,7 +97,7 @@
                 "capacidade": "16",
                 "palestrantes": [
                     {
-                        "nome": "Dennis Fujita"
+                        "nome": "Dennis Minoru Fujita"
                     }
                 ]
             },
@@ -131,7 +131,7 @@
                 "capacidade": "",
                 "palestrantes": [
                     {
-                        "nome": "Gabriela Ferreira Camargo (Mestranda EACH)"
+                        "nome": "Gabriela Ferreira Camargo"
                     }
                 ]
             },
@@ -145,7 +145,13 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Camila C. G. Fernandez, Leandro R. G. Fernandez, Tiago Juliano"
+                        "nome": "Camila Collpy Gonzalez Fernandez"
+                    },
+                    {
+                        "nome": "Leandro Rodrigues Gonzalez Fernandez"
+                    },
+                    {
+                        "nome": "Tiago Juliano"
                     }
                 ]
             },
@@ -159,7 +165,7 @@
                 "capacidade": "16",
                 "palestrantes": [
                     {
-                        "nome": "Dennis Fujita"
+                        "nome": "Dennis Minoru Fujita"
                     }
                 ]
             },
@@ -173,14 +179,17 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Érika S. K. di Napoli; Rosana B. dos Santos"
+                        "nome": "Erika Sayuri Koga di Napoli"
+                    },
+                    {
+                        "nome": "Rosana Barros"
                     }
                 ]
             },
             {
                 "tipo": "Feira de Livros",
-                "hora_de_inicio": " ",
-                "hora_de_termino": " ",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "18:00",
                 "local": "Saguão IFSP",
                 "nome": "Exposição de Livros",
                 "descrição": "Descrição ...",
@@ -215,7 +224,7 @@
                 "capacidade": " ",
                 "palestrantes": [
                     {
-                        "nome": "Rodermil Pizzo (diretor de unidades da CVC)"
+                        "nome": "Rodermil Pizzo"
                     }
                 ]
             },
@@ -228,9 +237,15 @@
                 "descrição": "Descrição ...",
                 "capacidade": "40",
                 "palestrantes": [
-                    {
-                        "nome": "Camila C. G. Fernandez, Douglas A. Dias, Leandro R. G. Fernandez, Tiago Juliano"
-                    }
+                        {
+                            "nome": "Camila Collpy Gonzalez Fernandez"
+                        },
+                        {
+                            "nome": "Leandro Rodrigues Gonzalez Fernandez"
+                        },
+                        {
+                            "nome": "Tiago Juliano"
+                        }
                 ]
             },
             {
@@ -243,7 +258,7 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Simone Cardoso"
+                        "nome": "Simone Monteiro Cardoso"
                     }
                 ]
             },
@@ -277,7 +292,7 @@
                 "capacidade": "",
                 "palestrantes": [
                     {
-                        "nome": "Vinicyus Vieira (Viagem'Grafia)"
+                        "nome": "Vinicyus Vieira (Viagem’Grafia)"
                     }
                 ]
             },
@@ -291,7 +306,7 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Simone Cardoso"
+                        "nome": "Simone Monteiro Cardoso"
                     }
                 ]
             },
@@ -319,14 +334,14 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Camila C. G. Fernandez"
+                        "nome": "Camila Collpy Gonzalez Fernandez"
                     }
                 ]
             },
             {
                 "tipo": "Feira de Livros",
-                "hora_de_inicio": "",
-                "hora_de_termino": "",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "18:00",
                 "local": "Saguão IFSP",
                 "nome": "Exposição de Livros",
                 "descrição": "Descrição ...",
@@ -389,7 +404,7 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Simone Cardoso"
+                        "nome": "Simone Monteiro Cardoso"
                     }
                 ]
             },
@@ -410,7 +425,7 @@
         ]
     },
     {
-        "dia da semana": "Sexta-feira",
+        "dia_da_semana": "Sexta-feira",
         "data": "13/09/2019",
         "eventos": [
             {
@@ -423,7 +438,7 @@
                 "capacidade": "40",
                 "palestrantes": [
                     {
-                        "nome": "Bruno Chiavelli (Eng. Agrônomo)"
+                        "nome": "Bruno Chiavelli"
                     }
                 ]
             },

@@ -202,6 +202,7 @@ h1, h2 {
   font-weight: normal;
   border-bottom: 0.05rem #C680FF solid;
   padding-bottom: 0.1rem;
+  margin-top: 2rem;
 }
 
 .event {
@@ -281,6 +282,18 @@ font-weight: normal;
     flex-direction: row;
     justify-content: space-between;
   }  
+
+  .event-time {
+    flex-basis: 20%;
+    }
+    
+  .event-text {
+    flex-basis: 60%;
+  }
+    
+  .event-speakers {
+    flex-basis: 20%;
+  }
 
   .tour {
     margin: 0 0.5rem;

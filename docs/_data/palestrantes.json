@@ -133,10 +133,8 @@
         "titulo": "",
         "minicv": "Engenheiro Agrônomo pela Escola Superior de Agronomia “Luiz de Queiroz” da Universidade de São Paulo (ESALQ/USP), com foco em fruticultura. Ingénieur en Agriculture pela École Supériure d’Agriculture d’Angers (ESA-Angers) na França com foco em mercado internacional e marketing. Mestre em Olivar y Aceite de Oliva pela Universidad de Jaén (UJA) na Espanha. Atualmente trabalha na Secretaria de Turismo de Guarujá, além de estar cursando técnico em Guia de Turismo pela ETEC.",
         "link_lattes": "",
-        "foto":"assets/img/bruno-p.jpg",
-        "email": ""
-
-
+        "email": "",
+        "foto": "assets/img/bruno-p.jpg"
     }
 
 ]
