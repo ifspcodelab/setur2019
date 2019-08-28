@@ -48,14 +48,16 @@ layout: layout
     <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
         quibusdam voluptate ut.</p>
     <div class="section-content">
-        <div class="speaker">
-            <img src="assets/img/bruno-p.jpg" alt="" class="speaker-img">
-            <div class="speaker-text">
-                <h3 class="speaker-title">Bruno Chiavelli</h3>
-                <p class="speaker-description">Engenheiro Agrônomo</p>
-                <a href="#" class="speaker-contact">www.site.com</a>
+        {% for palestrante in site.data.palestrantes %}
+            <div class="speaker">
+                <img src="assets/img/bruno-p.jpg" alt="" class="speaker-img">
+                <div class="speaker-text">
+                    <h3 class="speaker-title">{{palestrante.nome}}</h3>
+                    <p class="speaker-description">{{ palestrante.titulo }}</p>
+                    <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
+                </div>
             </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
 
