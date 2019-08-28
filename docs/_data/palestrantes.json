@@ -3,8 +3,9 @@
         "titulo": "Professora IFSP",
         "minicv": "Mestre em Hospitalidade pela Universidade Anhembi-Morumbi (2011), Pós graduada MBA de Gestão Empresarial pela Fundação Getulio Vargas (2007), Bacharel em Turismo pela Universidade de São Paulo (2002) e Tecnóloga em Hotelaria pelo Centro Universitário Senac (1999). Cursando Formação Pedagógica de Docente para Educação Profissional de Nível Médio - modalidade à distância. Atua profissionalmente há 17 anos nas áreas de planejamento e organização do turismo, gestão de meios de hospedagem, meio ambiente, pesquisas e educação superior. Atualmente é Professora Efetiva do Curso Superior de Tecnologia em Gestão de Turismo do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)",
         "link_lattes": "http://lattes.cnpq.br/3408683495038995",
-        "foto":"",
-        "email": "kogadinapoli@ifsp.edu.br"
+        "email": "kogadinapoli@ifsp.edu.br",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -12,8 +13,9 @@
         "titulo": "Professor IFSP",
         "minicv": "Engenheiro de Produção (2006) e Mestre pelo Programa de Pós-Graduação em Engenharia de Produção (2010) pela Universidade Federal de São Carlos (UFSCar). Ph.D em Business Administration (2014) pela Osaka University, Japão – diploma reconhecido como Doutor em Administração pela Universidade de São Paulo (2015). Em 2016, foi contemplado no Programa Brasil - Reino Unido para Formação de Professores da Rede Federal de Educação Profissional, Científica e Tecnológica, desenvolvendo um projeto para educação técnica profissional em Bounemouth – Reino Unido. Atualmente é coordenador do Curso Superior de Tecnologia em Gestão de Turismo do IFSP.",
         "link_lattes": "http://lattes.cnpq.br/7581348521996846",
-        "foto":"",
-        "email": "marcoshy@ifsp.edu.br"
+        "email": "marcoshy@ifsp.edu.br",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -21,8 +23,9 @@
         "titulo": "",
         "minicv": "Professora Doutora em história pela PUCSP. Bacharel e mestre em Turismo pelo UNIBERO (centro universitário Ibero americano), com especialização em Gerenciamento empresarial. Prof. Efetiva do IFSP e atual coordenadora do Comitê de Ética em Pesquisa da instituição. Tese de doutorado premiada como a melhor de 2016 defendida no programa de história e indicada para o prêmio Capes. Em 2019 recebeu convite para compor o acervo de autores da biblioteca Nacional dos Estados Unidos (library of congress the USA).",
         "link_lattes": "http://lattes.cnpq.br/0291046608514693",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -30,8 +33,9 @@
         "titulo": "",
         "minicv": "Bacharel em Turismo (2000/ UNIBERO), Mestre em Turismo (2003/UNIBERO), Mestre em Hospitalidade (2009/UAM), Doutor em História Social (2016/PUC-SP). Atua como professor universitário há mais de 18 anos, Diretor do Departamento Jovem da Casa de Portugal",
         "link_lattes": "http://lattes.cnpq.br/7269976266233042",
-        "foto":"assets/img/leandro-p.jpg",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/leandro-p.jpg"
+
     },
 
     {
@@ -39,8 +43,9 @@
         "titulo": "",
         "minicv": "Consultor hoteleiro, jornalista de viagem, palestrante e turismólogo. Atua há 16 anos na área de turismo e conta com vivência a bordo de cruzeiros e hotéis 5 estrelas, dentro e fora do Brasil. Oferece consultoria e palestras para qualificação de serviços turísticos e hoteleiros e é produtor de conteúdo do Viagem’Grafia.",
         "link_lattes": "",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -48,8 +53,9 @@
         "titulo": "",
         "minicv": "Chefe de inspiração de viagens no Instaviagens, agência online especializada em viagens personalizadas.",
         "link_lattes": "",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -57,8 +63,9 @@
         "titulo": "",
         "minicv": "Influenciadora digital e fundadora do Acordei quero viajar, empresa de comunicação especializada em desenvolvimento de projetos de marketing de influência e destinos para o nicho de turismo. Já realizou trabalhos para empresas importantes como Google Fotos, Voopter, Hilton Hotels e Palladium Hotel Group, do qual foi embaixadora no Brasil por nove meses. É co-criadora do Travel Insights Brazil, evento de inovação, criatividade e influência voltado ao trade de turismo no Brasil.",
         "link_lattes": "",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -66,8 +73,9 @@
         "titulo": "",
         "minicv": "Tem grande experiência no mercado de turismo e atualmente atua como consultora especializada em semiótica do turismo, docente de graduação e pós graduação em Comunicação, Turismo e Hospitaliade. É pós doutora em Semiótica do Turismo pela EACH-USP e em Marketing Turístico pela UFPR; Doutora em Comunicação e Semiótica pela PUC-SP; Mestre em Ciências da Comunicação pela ECA-USP; Especialista em Teoria da Comunicação pela Faculdade Casper Líbero; Graduada em Hotelaria pelas Faculdades Hebraico Renascença. Co-autora do Livro Turismo de Experiência (Senac) e foi articulista de turismo e viagem do Jornal O Estado de São Paulo, entre 1995 e 2004.",
         "link_lattes": "",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -77,6 +85,7 @@
         "link_lattes": "http://lattes.cnpq.br/5057981392414244",
         "foto":"assets/img/gabriela-p.jpg",
         "email": ""
+
     },
 
     {
@@ -84,8 +93,9 @@
         "titulo": "",
         "minicv": "Possui graduação em Turismo pela Universidade Nove de Julho (2008), Pós Graduada no Curso Lato Sensu - Formação de Professores para o Ensino Superior - Instituto Federal de São Paulo.",
         "link_lattes": "http://lattes.cnpq.br/9163575091427919",
-        "foto":"",
-        "email": ""
+        "email": "",
+        "foto": "assets/img/default.jpg"
+
     },
 
     {
@@ -95,6 +105,7 @@
         "link_lattes": "http://lattes.cnpq.br/5399654413159662",
         "foto":"assets/img/rodermil-p.jpg",
         "email": ""
+
     },
 
     {
@@ -104,6 +115,7 @@
         "link_lattes": "http://lattes.cnpq.br/2228801103428191",
         "foto":"assets/img/dennis-p.jpg",
         "email": ""
+
     },
 
     {
@@ -113,6 +125,7 @@
         "link_lattes": "http://lattes.cnpq.br/6405080553975386",
         "foto":"assets/img/simone-p.jpg",
         "email": ""
+
     },
 
     {
@@ -122,6 +135,8 @@
         "link_lattes": "",
         "foto":"assets/img/bruno-p.jpg",
         "email": ""
+
+
     }
 
 ]

@@ -61,46 +61,378 @@ layout: layout
     </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="section section-schedule">
     <h2 id="section-schedule" class="section-heading">Programação</h2>
     <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
         quibusdam voluptate ut.</p>
     <div class="section-content">
         <div class="schedule">
-            <h3 class="schedule-day">Terça-Feira</h3>
-
-            <div class="event">
-                <p class="event-time">08:00 AM - 12:00 AM</p>
-                <div class="event-text">
-                    <a href="#">
-                        <h4>Dinâmica e Jogos para Gestão</h4>
-                    </a>
-                    <p>Local: Auditório Ivo</p>
-                </div>
-                <div class="event-speakers">
-                    <img src="assets/img/dennis-p.jpg" alt="">
-                    <img src="assets/img/gabriela-p.jpg" alt="">
-
-                </div>
-            </div>
+            {% for dia in site.data.eventos %}
+                <h3 class="schedule-day">{{ dia.dia_da_semana }}</h3>
+                    {% for evento in dia.eventos %}
+                        <div class="event">
+                            <p class="event-time">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }}</p>
+                            <div class="event-text">
+                                <a href="#">
+                                    <h4>{{ evento.nome }}</h4>
+                                </a>
+                                <p>Local: {{ evento.local }}</p>
+                            </div>
+                            <div class="event-speakers">
+                                {% for palestrante in site.data.palestrantes %}
+                                    {% for x in evento.palestrantes %}
+                                        {% if palestrante.nome == x.nome %}
+                                            <img src="{{ palestrante.foto }}" alt="palestrante">
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </section>
 
-<h3> Palestrantes </h3>
-<ul>
-    {% for palestrante in site.data.palestrantes %}
-    <li>
-        <h4> {{ palestrante.nome }}</h4>
-        <p> {{ palestrante.titulo }}</p>
-        <p> {{ palestrante.email }}</p>
-
-    </li>
-    {% endfor %}
-</ul>
-
 <h3> Programação </h3>
-
 <ul>
     {% for dia in site.data.eventos %}
     <li>
