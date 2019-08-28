@@ -420,7 +420,7 @@ layout: layout
                                 {% for palestrante in site.data.palestrantes %}
                                     {% for x in evento.palestrantes %}
                                         {% if palestrante.nome == x.nome %}
-                                            {{ palestrante.foto }}
+                                            <img src="{{ palestrante.foto }}" alt="palestrante">
                                         {% endif %}
                                     {% endfor %}
                                 {% endfor %}
