@@ -1,63 +1,81 @@
 ---
-
+layout: layout
 
 ---
 
+<header id="home" class="main-header">
+    <nav class="main-header-navbar">
+        <a href="#home" class="main-header-brand">Setur<span>2019</span></a>
+        <ul class="main-header-menu">
+            <li><a href="#section-tour">Visitas Técnicas</a></li>
+            <li><a href="#section-speakers">Palestrantes</a></li>
+            <li><a href="#section-schedule">Programação</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+    </nav>
+    <h1 class="main-header-headline">Semana do Turismo</h1>
+</header>
 
+<section class="section section-tour">
+    <h2 id="section-tour" class="section-heading">Visitas Técnicas</h2>
+    <p class="section-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sint quisquam
+        quibusdam voluptate ut.</p>
+    <div class="section-content">
+        <div class="tour">
+            <img src="assets/img/fiesp-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Fiesp</h3>
+            <p class="tour-description">A sede da Federação das Indústrias do Estado de São Paulo (Fiesp), um edifício
+                de formato inusitado na Avanida Paulista.</p>
+        </div>
+        <div class="tour">
+            <img src="assets/img/japan-house-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Japan House</h3>
+            <p class="tour-description">Ponto de difusão de todos os elementos da genuína cultura japonesa. Um lugar
+                equilibrado, inovador e diferenciado.</p>
+        </div>
+        <div class="tour">
+            <img src="assets/img/masp-p.jpg" alt="" class="tour-img">
+            <h3 class="tour-title">Masp</h3>
+            <p class="tour-description">Museu de Arte de São Paulo Assis Chateaubriand é uma das mais importantes
+                instituições culturais brasileiras.</p>
+        </div>
 
-<!DOCTYPE html>
-<html lang="en">
+    </div>
+</section>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Semana do Turismo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Zilla+Slab+Highlight:400,700|Zilla+Slab:500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
-</head>
+<h3> Palestrantes </h3>
+<ul>
+    {% for palestrante in site.data.palestrantes %}
+    <li>
+        <h4> {{ palestrante.nome }}</h4>
+        <p> {{ palestrante.titulo }}</p>
+        <p> {{ palestrante.email }}</p>
 
-<body>
+    </li>
+    {% endfor %}
+</ul>
 
-    <h3> Palestrantes </h3>
-    <ul>
+<h3> Programação </h3>
+
+<ul>
+    {% for dia in site.data.eventos %}
+    <li>
+        <h4>{{ dia.dia_da_semana }}</h4>
+        {% for evento in dia.eventos %}
+
+        <span>{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span>
+        <h5> {{ evento.nome }} </h5>
+        <p> {{ evento.tipo }} </p>
+        <p> {{ evento.descricao }}</p>
         {% for palestrante in site.data.palestrantes %}
-        <li>
-            <h4> {{ palestrante.nome }}</h4>
-            <p> {{ palestrante.titulo }}</p>
-            <p> {{ palestrante.email }}</p>
-
-        </li>
+        {% for x in evento.palestrantes %}
+        {% if palestrante.nome == x.nome %}
+        {{ palestrante.email }}
+        {% endif %}
         {% endfor %}
-    </ul>
-
-    <h3> Programação </h3>
-
-    <ul>
-        {% for dia in site.data.eventos %}
-        <li>
-            <h4>{{ dia.dia_da_semana }}</h4>
-            {% for evento in dia.eventos %}
-
-            <span>{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }} </span>
-            <h5> {{ evento.nome }} </h5>
-            <p> {{ evento.tipo }} </p>
-            <p> {{ evento.descricao }}</p>
-            {% for palestrante in site.data.palestrantes %}
-            {% for x in evento.palestrantes %}
-            {% if palestrante.nome == x.nome %}
-            {{ palestrante.email }}
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
-            <p>=====================================</p>
-            {% endfor %}
-        </li>
         {% endfor %}
-    </ul>
-
-</body>
-
-</html>
+        <p>=====================================</p>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
