@@ -261,6 +261,10 @@ h1, h2 {
 /** Media Queries **/
 
 @media (min-width: 540px) {
+  .main-header {
+    background: #22162C url('../../assets/img/bg-image-540.jpg');
+  }
+
   :root {
     font-size: 20px;
   }
@@ -278,6 +282,10 @@ h1, h2 {
 }
 
 @media (min-width: 720px) {
+  .main-header {
+    background: #22162C url('../../assets/img/bg-image-720.jpg');
+  }
+
   :root {
     font-size: 22px;
   }
@@ -327,6 +335,10 @@ h1, h2 {
 }
 
 @media (min-width: 1024px) {
+  .main-header {
+    background: #22162C url('../../assets/img/bg-image-1024.jpg');
+  }
+
   :root {
     font-size: 28px;
   }
@@ -344,6 +356,10 @@ h1, h2 {
 }
 
 @media (min-width: 1368px) {
+  .main-header {
+    background: #22162C url('../../assets/img/bg-image-1368.jpg');
+  }
+
   :root {
     font-size: 36px;
   }
@@ -355,5 +371,7 @@ h1, h2 {
 }
 
 @media (min-width: 1700px) {
-  
+  .main-header {
+    background: #22162C url('../../assets/img/bg-image-1700.jpg');
+  }
 }
