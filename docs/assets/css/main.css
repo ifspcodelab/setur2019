@@ -276,7 +276,7 @@ h1, h2 {
     height: 2.5rem;
   }
 	
-  main-header-menu {
+  .main-header-menu {
     margin-top: 0rem;
   }
 
@@ -323,11 +323,11 @@ h1, h2 {
   }
 
   .speaker {
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 0.5rem;
     flex-basis: calc(50% - 2rem);
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
   }
   .speaker-text {
     padding-left: 0.5rem;
