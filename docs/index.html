@@ -23,9 +23,9 @@ layout: layout
     <div class="section-content">
         <div class="tour">
             <picture>
-                <source srcset="assets/img/fiesp-p.jpg" media="(max-width: 720px)">
-                <source srcset="assets/img/fiesp-m.jpg" media="(max-width: 1368px)">
-                <source srcset="assets/img/fiesp-g.jpg" media="(min-width: 1368px)">
+                <source srcset="assets/img/fiesp-p.jpg" media="(max-width: 360px)">
+                <source srcset="assets/img/fiesp-m.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/fiesp-g.jpg" media="(min-width: 720px)">
                 <img src="assets/img/fiesp-p.jpg" alt="" class="tour-img">
             </picture>
             <h3 class="tour-title">Fiesp</h3>
@@ -34,9 +34,9 @@ layout: layout
         </div>
         <div class="tour">
             <picture>
-                <source srcset="assets/img/japan-house-p.jpg" media="(max-width: 720px)">
-                <source srcset="assets/img/japan-house-m.jpg" media="(max-width: 1368px)">
-                <source srcset="assets/img/japan-house-g.jpg" media="(min-width: 1368px)">
+                <source srcset="assets/img/japan-house-p.jpg" media="(max-width: 360px)">
+                <source srcset="assets/img/japan-house-m.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/japan-house-g.jpg" media="(min-width: 720px)">
                 <img src="assets/img/japan-house-p.jpg" alt="" class="tour-img">
             </picture>
             <h3 class="tour-title">Japan House</h3>
@@ -45,9 +45,9 @@ layout: layout
         </div>
         <div class="tour">
             <picture>
-                <source srcset="assets/img/masp-p.jpg" media="(max-width: 720px)">
-                <source srcset="assets/img/masp-m.jpg" media="(max-width: 1368px)">
-                <source srcset="assets/img/masp-g.jpg" media="(min-width: 1368px)">
+                <source srcset="assets/img/masp-p.jpg" media="(max-width: 360px)">
+                <source srcset="assets/img/masp-m.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/masp-g.jpg" media="(min-width: 720px)">
                 <img src="assets/img/masp-p.jpg" alt="" class="tour-img">
             </picture>
             <h3 class="tour-title">Masp</h3>
@@ -75,7 +75,15 @@ layout: layout
             <div class="speaker-text">
                 <h3 class="speaker-title">{{palestrante.nome}}</h3>
                 <p class="speaker-description">{{ palestrante.titulo }}</p>
-                <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
+                {% if  palestrante.email != '' %}
+                    <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
+                {% elsif palestrante.link_lattes != '' %} 
+                    
+                    <a target="blank" href="{{ palestrante.link_lattes }}"  class="speaker-contact">Currículo Lattes</a>
+                {% else %}
+
+
+                {% endif %}
             </div>
         </div>
         {% endfor %}
