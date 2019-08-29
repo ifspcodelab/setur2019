@@ -219,7 +219,10 @@ h1, h2 {
 }
 
 .event-time {
-font-weight: normal;
+  font-weight: normal;
+  color: #A597B0;
+  font-size: 0.6rem;
+	margin-bottom: 0.2rem;
 }
 
 .event-text {
@@ -233,6 +236,7 @@ font-weight: normal;
 
 .event-text p {
   margin-bottom: 0.5rem;
+  color: #e8e2ec;
 }
 
 .event-speakers {
