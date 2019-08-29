@@ -77,9 +77,12 @@ layout: layout
                 <p class="speaker-description">{{ palestrante.titulo }}</p>
                 {% if  palestrante.email != '' %}
                     <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
-                {% elsif palestrante.nome %} 
+                {% elsif palestrante.link_lattes != '' %} 
                     
-                    <a href="{{ palestrante.link_lattes }}"  class="speaker-contact">Currículo Lattes</a>
+                    <a target="blank" href="{{ palestrante.link_lattes }}"  class="speaker-contact">Currículo Lattes</a>
+                {% else %}
+
+
                 {% endif %}
             </div>
         </div>
