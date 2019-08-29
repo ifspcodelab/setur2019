@@ -295,6 +295,7 @@ font-weight: normal;
     
   .event-speakers {
     flex-basis: 20%;
+    text-align: right;
   }
 
   .tour {
