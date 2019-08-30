@@ -10,7 +10,7 @@ layout: layout
             <li><a href="#section-tour">Visitas Técnicas</a></li>
             <li><a href="#section-speakers">Palestrantes</a></li>
             <li><a href="#section-schedule">Programação</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#section-contact">Contato</a></li>
         </ul>
     </nav>
     <h1 class="main-header-headline">Semana do Turismo</h1>
@@ -75,11 +75,11 @@ layout: layout
             <div class="speaker-text">
                 <h3 class="speaker-title">{{palestrante.nome}}</h3>
                 <p class="speaker-description">{{ palestrante.titulo }}</p>
-                {% if  palestrante.email != '' %}
-                    <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
-                {% elsif palestrante.link_lattes != '' %} 
-                    
-                    <a target="blank" href="{{ palestrante.link_lattes }}"  class="speaker-contact">Currículo Lattes</a>
+                {% if palestrante.email != '' %}
+                <a href="#" class="speaker-contact">{{ palestrante.email }}</a>
+                {% elsif palestrante.link_lattes != '' %}
+
+                <a target="blank" href="{{ palestrante.link_lattes }}" class="speaker-contact">Currículo Lattes</a>
                 {% else %}
 
 
@@ -123,5 +123,12 @@ layout: layout
             {% endfor %}
             {% endfor %}
         </div>
+    </div>
+</section>
+
+<section id="section-contact" class="section section-contact">
+    <div>
+        <h1 class="section-heading"> Contato </h1>
+        <p>Entre em contato pelo email: xxx@xxx.com</p>
     </div>
 </section>

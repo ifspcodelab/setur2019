@@ -254,8 +254,19 @@ h1, h2 {
 .event-speakers img:not(:first-of-type) {
   margin-left: -1.2rem;
 }
+/** Contact */
+.section-contact{
+  
+}
+.section-contact div{
+  position: relative;
+  padding: 5rem 0  ;
 
-
+}
+.section-contact h1{
+    margin-bottom: 1rem;
+    
+}
 
 
 
