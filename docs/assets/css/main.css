@@ -156,6 +156,7 @@ h1, h2 {
 .tour-description {
   font-size: 0.75rem;
   color: #AAA;
+  margin-bottom: 2rem;
 }
 
 /** speaker **/
@@ -254,8 +255,19 @@ h1, h2 {
 .event-speakers img:not(:first-of-type) {
   margin-left: -1.2rem;
 }
+/** Contact */
+.section-contact{
+  
+}
+.section-contact div{
+  position: relative;
+  padding: 5rem 0  ;
 
-
+}
+.section-contact h1{
+    margin-bottom: 1rem;
+    
+}
 
 
 
@@ -319,7 +331,7 @@ h1, h2 {
 
   .tour {
     margin: 0 0.5rem;
-    flex-basis: calc(33.33% - 1rem);
+    flex-basis: calc(50% - 1rem);
   }
 
   .speaker {
