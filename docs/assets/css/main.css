@@ -156,6 +156,7 @@ h1, h2 {
 .tour-description {
   font-size: 0.75rem;
   color: #AAA;
+  margin-bottom: 2rem;
 }
 
 /** speaker **/
