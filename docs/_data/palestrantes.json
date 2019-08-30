@@ -20,7 +20,7 @@
 
     {
         "nome": "Camila Collpy Gonzalez Fernandez",
-        "titulo": "",
+        "titulo": "Professora IFSP",
         "minicv": "Professora Doutora em história pela PUCSP. Bacharel e mestre em Turismo pelo UNIBERO (centro universitário Ibero americano), com especialização em Gerenciamento empresarial. Prof. Efetiva do IFSP e atual coordenadora do Comitê de Ética em Pesquisa da instituição. Tese de doutorado premiada como a melhor de 2016 defendida no programa de história e indicada para o prêmio Capes. Em 2019 recebeu convite para compor o acervo de autores da biblioteca Nacional dos Estados Unidos (library of congress the USA).",
         "link_lattes": "http://lattes.cnpq.br/0291046608514693",
         "email": "",
@@ -39,8 +39,8 @@
     },
 
     {
-        "nome": "Vinicyus Vieira (Viagem’Grafia)",
-        "titulo": "",
+        "nome": "Vinicyus Vieira",
+        "titulo": "Consultor Hoteleiro (Viagem’Grafia)",
         "minicv": "Consultor hoteleiro, jornalista de viagem, palestrante e turismólogo. Atua há 16 anos na área de turismo e conta com vivência a bordo de cruzeiros e hotéis 5 estrelas, dentro e fora do Brasil. Oferece consultoria e palestras para qualificação de serviços turísticos e hoteleiros e é produtor de conteúdo do Viagem’Grafia.",
         "link_lattes": "",
         "email": "",
@@ -49,8 +49,8 @@
     },
 
     {
-        "nome": "Marian Koshiba (Instaviagem)",
-        "titulo": "",
+        "nome": "Marian Koshiba",
+        "titulo": "Chefe de Inspiração de Viagens (Instaviagens)",
         "minicv": "Chefe de inspiração de viagens no Instaviagens, agência online especializada em viagens personalizadas.",
         "link_lattes": "",
         "email": "",
@@ -59,8 +59,8 @@
     },
 
     {
-        "nome": "Camila Castanheira (Acordei quero viajar)",
-        "titulo": "",
+        "nome": "Camila Castanheira ",
+        "titulo": "Influenciadora Digital (Acordei quero viajar)",
         "minicv": "Influenciadora digital e fundadora do Acordei quero viajar, empresa de comunicação especializada em desenvolvimento de projetos de marketing de influência e destinos para o nicho de turismo. Já realizou trabalhos para empresas importantes como Google Fotos, Voopter, Hilton Hotels e Palladium Hotel Group, do qual foi embaixadora no Brasil por nove meses. É co-criadora do Travel Insights Brazil, evento de inovação, criatividade e influência voltado ao trade de turismo no Brasil.",
         "link_lattes": "",
         "email": "",
@@ -69,8 +69,8 @@
     },
 
     {
-        "nome": "Prof.ª Dr.ª Cyhnthia Mello (Semioturismo)",
-        "titulo": "",
+        "nome": "Cyhnthia Mello (Semioturismo)",
+        "titulo": "Consultora em Semiótica do Turismo",
         "minicv": "Tem grande experiência no mercado de turismo e atualmente atua como consultora especializada em semiótica do turismo, docente de graduação e pós graduação em Comunicação, Turismo e Hospitaliade. É pós doutora em Semiótica do Turismo pela EACH-USP e em Marketing Turístico pela UFPR; Doutora em Comunicação e Semiótica pela PUC-SP; Mestre em Ciências da Comunicação pela ECA-USP; Especialista em Teoria da Comunicação pela Faculdade Casper Líbero; Graduada em Hotelaria pelas Faculdades Hebraico Renascença. Co-autora do Livro Turismo de Experiência (Senac) e foi articulista de turismo e viagem do Jornal O Estado de São Paulo, entre 1995 e 2004.",
         "link_lattes": "",
         "email": "",
@@ -80,7 +80,7 @@
 
     {
         "nome": "Gabriela Ferreira Camargo",
-        "titulo": "",
+        "titulo": "Mestranda em Turismo (EACH-USP)",
         "minicv": "Mestranda e representante discente suplente do Programa de Pós-Graduação em Turismo na Escola de Artes Ciências e Humanidades da Universidade de São Paulo (EACH-USP) Monitora da matéria ''Planejamento e Organização do Turismo 1'' na Escola de Comunicação e Artes (ECA/USP). Recebeu o prêmio de melhor artigo apresentado no Fórum ABRATUR (2019). Recebeu o prêmio de melhor pôster apresentado na 6th UNESCO UNITWIN Conference (2019). Graduação em Tecnologia em Gestão de Turismo pelo Instituto Federal de Educação Ciência e Tecnologia de São Paulo - IFSP (2016). Atuou como voluntária de Uso Público e negócios no Instituto Chico Mendes de Conservação da Biodiversidade - ICMBIO em Fernando de Noronha (2016). Atuou como bolsista no projeto de extensão em hospitalidade do IFSP (2015). Áreas de atuação: Hotelaria, Planejamento em turismo, Gestão de patrimônio.",
         "link_lattes": "http://lattes.cnpq.br/5057981392414244",
         "foto":"assets/img/gabriela",
@@ -90,7 +90,7 @@
 
     {
         "nome": "Rosana Barros",
-        "titulo": "",
+        "titulo": "Turismóloga (WFB -World Fênix Brasil)",
         "minicv": "Possui graduação em Turismo pela Universidade Nove de Julho (2008), Pós Graduada no Curso Lato Sensu - Formação de Professores para o Ensino Superior - Instituto Federal de São Paulo.",
         "link_lattes": "http://lattes.cnpq.br/9163575091427919",
         "email": "",
@@ -100,7 +100,7 @@
 
     {
         "nome": "Rodermil Pizzo",
-        "titulo": "",
+        "titulo": "Diretor Comercial (CVC Central do Estudante)",
         "minicv": "Graduado em Jornalismo pela Universidade Metodista de São Paulo (1988), Especialista em Planejamento Turístico pela FGV e ESPM, Mestre em Turismo e Hospitalidade pela UAM. Foi Gerente de Eventos do Rio Quente Resorts e do Costão do Santinho Resorts. Atualmente é Diretor Comercial da CVC Central do Estudante.",
         "link_lattes": "http://lattes.cnpq.br/5399654413159662",
         "foto":"assets/img/rodermil",
@@ -120,7 +120,7 @@
 
     {
         "nome": "Simone Monteiro Cardoso",
-        "titulo": "",
+        "titulo": "Professora do IFSP",
         "minicv": "Atualmente é professora universitária na UMC (Universidade de Mogi das Cruzes), Unip (Universidade Paulista) e IFSP (Instituto Federal de São Paulo) e coordenadora do curso de turismo da UNIP- unidade Rangel em Santos. Possui mestrado interdisciplinar nas áreas: educação, administração e comunicação pela São Marcos (2011), especializações nas áreas:gestão mercadológica em turismo e hotelaria (USP) e Marketing da qualidade total (UMC) e graduada em turismo (Unimonte). Experiência profissional: organização de eventos, promoção e marketing em mercados (desde 1998), docência em ensino profissionalizante (5 anos) , em ensino superior (desde 2006), docência em curso de especialização (desde 2008), consultoria e treinamento em meios de hospedagens (desde 2004) , recepção hoteleira (2 anos), check-in em terminais de cruzeiros marítimos (2 anos), membro da comissão organizadora do ENADE em tecnologia em turismo (2009), além do cargo de assessora (2011/12) e Diretora (2018) de desenvolvimento e promoção turística na Secretaria de turismo da cidade de Guarujá e Coach empreendedor",
         "link_lattes": "http://lattes.cnpq.br/6405080553975386",
         "foto":"assets/img/simone",
@@ -139,7 +139,7 @@
 
     {
         "nome": "Geórgia Nicoletti Garcia",
-        "titulo": "",
+        "titulo": "Professora do Centro de Paula Souza",
         "minicv": "Professora há dezesseis anos na área da educação: curso de Turismo Faculdades, Centro de Paula Souza, professora de geografia fundamental II e Médio e professora do estado. Elaboração do plano pedagógico, avaliações, programação e execução de atividades paralela visita técnicas e viagens (parcerias) para eficácia no que se refere ao aprendizado dos alunos. Participação e organização dos exames simulados. Orientadora de Trabalho Conclusão de Curso. Experiência de mais de 12 anos no mercado de turismo corporativo e de eventos em agências de viagens de grande, médio e pequeno porte. Atuação nas áreas de produtos, eventos, consultoria, vendas, relacionamento com o cliente, seleção e treinamento de produtos. Organização de Sales Calls (visitas) nas principais, agências /operadoras do Brasil. Organização de famtour com os melhores clientes de turismo potenciais para hotelaria.",
         "link_lattes": "http://lattes.cnpq.br/6192280715965463",
         "email": "",
@@ -148,7 +148,7 @@
 
     {
         "nome": "Douglas Alexandre Dias",
-        "titulo": "",
+        "titulo": "Gestor de Projetos (Fundação de Apoio à Tecnologia (FAT))",
         "minicv": "Mestre em Gestão e Desenvolvimento da Educação Profissional, no Centro Estadual de Educação Técnica e Tecnológica Paula Souza.Possui Especialização em Gestão Empresarial (FATEC - SP/2010) e graduação em Lazer e Turismo pela USP (2008) . Atualmente é gestor de projetos - na Fundação de Apoio à Tecnologia (FAT) e professor de ensino superior Centro Estadual de Educação Tecnológica Paula Souza, no curso Superior de Tecnologia em Eventos, Tecnologia em Gestão de Turismo e Tecnologia em Gestão Empresarial. Presta assessoria em marketing e eventos para o Grupo Mancini. Tem experiência na área de consultoria, eventos e projetos, com ênfase em terceiro setor e poder público, atuando principalmente nos seguintes temas: educação, tecnologia e gestão.",
         "link_lattes": "http://lattes.cnpq.br/5784991950431658",
         "email": "",
@@ -157,7 +157,7 @@
 
     {
         "nome": "Marina Monteiro da Silva",
-        "titulo": "",
+        "titulo": "Professora do IFSP",
         "minicv": "Possui graduação em Gestão de Turismo pelo Instituto Federal de São Paulo (2009) e especialização em Docência para o ensino superior pelo SENAC (2012). Mestranda pelo programa de Pós-Graduação em Turismo na Escola de Artes Ciências e Humanidades da Universidade de São Paulo (EACH-USP). Atualmente é professora efetiva do Instituto Federal de São Paulo. Tem experiência na área de Agenciamento de viagens e eventos",
         "link_lattes": "http://lattes.cnpq.br/4372502323699272",
         "email": "",
@@ -166,7 +166,7 @@
 
     {
         "nome": "Tiago Juliano",
-        "titulo": "",
+        "titulo": "Professor do IFSP",
         "minicv": "Professor temporário do Curso Superior de Gestão de Turismo do Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP), campus São Paulo. Doutorando em Ambiente e Sociedade pelo Núcleo de Estudos e Pesquisas Ambientais (NEPAM) da Universidade Estadual de Campinas (Unicamp). Mestre em Sustentabilidade na Gestão Ambiental (PPGSGA) e Bacharel em Turismo pela Universidade Federal de São Carlos (UFSCar). Possui experiência profissional no setor de aviação civil e na elaboração de Planos Diretores Municipais de Turismo. Pesquisa temas relacionados à sustentabilidade; avaliação de políticas públicas de turismo; arenas de participação social; planejamento e gestão do turismo. Atualmente se dedica às interfaces entre patrimônio e turismo, com ênfase na articulação comunitária em áreas naturais protegidas.",
         "link_lattes": "http://lattes.cnpq.br/7064218048398448",
         "email": "",
@@ -175,7 +175,7 @@
 
     {
         "nome": "Jéssica Batista de Oliveira Gonçalves",
-        "titulo": "",
+        "titulo": "Turismóloga",
         "minicv": "Turismóloga, Boleira e Membro do Projeto Sustentare",
         "link_lattes": "",
         "email": "",
@@ -184,7 +184,7 @@
 
     {
         "nome": "Raul Jose de Souza",
-        "titulo": "",
+        "titulo": "Professor do IFSP",
         "minicv": "Professor Titular do Curso Superior de Tecnologia em Gestão de Turismo do Instituto Federal de Educação Ciência e Tecnologia de São Paulo (IFSP). Doutor em Turismo pela Universidade de Lisboa, Instituto de Geografia e Ordenamento do Território (IGOT) e Escola Superior de Hotelaria e Turismo do Estoril (ESHTE) e reconhecido como Doutor em Educação pela Universidade de São Paulo. Mestre em Turismo e Lazer pela Universidade de São Paulo. Graduado em Administração pela Universidade Salgado de Oliveira (UNIVERSO). Docente no ensino de nível técnico e superior público e privado em Turismo e Hospitalidade há 20 anos. Desde 2002 tem se dedicado à coordenação de projetos de ensino, pesquisa e extensão no âmbito do ensino profissional e tecnológico. Concomitantemente às suas funções de magistério está envolvido com a coordenação de grupo de trabalho para elaboração de currículo de curso técnico na área de turismo e hospitalidade, colaborador em Grupo de Trabalho para reestruturação de curso de nível superior. Coordena projetos e leciona cursos de extensão para capacitação de profissionais do setor de bares e restaurantes. Orienta projetos de iniciação científica. Membro e colaborador de Comissões para planejamento Institucional no âmbito do IFSP. Colaborador na gestão de curso e em projetos e grupos de trabalho para oferta e reestruturação de cursos de nível técnico e tecnológico no âmbito da educação profissional e tecnológica.",
         "link_lattes": "http://lattes.cnpq.br/0802802318181347",
         "email": "",
@@ -193,7 +193,7 @@
 
     {
         "nome": "Rodrigo de Benedictis Delphino",
-        "titulo": "",
+        "titulo": "Professor do IFSP",
         "minicv": "Administrador Hoteleiro, Mestre em Hospitalidade, Professor efetivo do curso de Tecnologia em Gestão de Turismo, Coordenador Geral do Projeto de extensão - Projeto Sustentare e professor do curso de Gastronomia Sustentável.",
         "link_lattes": "http://lattes.cnpq.br/2548746816843477",
         "email": "",
