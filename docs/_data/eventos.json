@@ -17,7 +17,7 @@
                 "tipo": "Workshop",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
-                "local": "sala 332",
+                "local": "Sala 332",
                 "nome": "Dinâmicas e Jogos para gestão de pessoas",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
@@ -70,7 +70,7 @@
                 "tipo": "Palestra",
                 "hora_de_inicio": "19:00",
                 "hora_de_termino": "20:30",
-                "local": "sala 330",
+                "local": "Sala 330",
                 "nome": "Turismo Industrial",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
@@ -123,7 +123,7 @@
                 "tipo": "Lançamento de Livros",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
-                "local": "sala 330",
+                "local": "Sala 330",
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
@@ -154,7 +154,7 @@
                 "tipo": "Workshop",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
-                "local": "Lubtur",
+                "local": "Labtur",
                 "nome": "Turismo 4.0: Ferramentas para Planejamento e Elaboração de Roteiros de Viagens",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
@@ -218,6 +218,9 @@
                     },
                     {
                         "nome": "Tiago Juliano"
+                    },
+                    {
+                        "nome": "Douglas Alexandre Dias"
                     }
                 ]
             },
@@ -290,7 +293,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                    "nome": "Raul José de Souza"
+                    "nome": "Raul Jose de Souza"
                 }]
             },
             {
@@ -326,7 +329,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "30",
                 "palestrantes": [{
-                    "nome": "Georgia N. Garcia"
+                    "nome": "Geórgia Nicoletti Garcia"
                 }]
             },
             {
@@ -374,7 +377,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "40",
                 "palestrantes": [{
-                    "nome": "Raul José de Souza"
+                    "nome": "Raul Jose de Souza"
                 }]
             }
         ]
@@ -403,7 +406,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                        "nome": "Rodrigo Delphino"
+                        "nome": "Rodrigo de Benedictis Delphino"
                     },
                     {
                         "nome": "Jéssica Batista de Oliveira Gonçalves"
@@ -419,7 +422,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                        "nome": "Rodrigo Delphino"
+                        "nome": "Rodrigo de Benedictis Delphino"
                     },
                     {
                         "nome": "Jéssica Batista de Oliveira Gonçalves"

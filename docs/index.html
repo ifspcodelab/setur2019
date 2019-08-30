@@ -54,15 +54,16 @@ layout: layout
                 instituições culturais brasileiras.</p>
         </div>
         <div class="tour">
-                <picture>
-                    <source srcset="assets/img/armenia-p.jpg" media="(max-width: 360px)">
-                    <source srcset="assets/img/armenia-m.jpg" media="(max-width: 720px)">
-                    <source srcset="assets/img/armenia-g.jpg" media="(min-width: 720px)">
-                    <img src="assets/img/armenia-p.jpg" alt="" class="tour-img">
-                </picture>
-                <h3 class="tour-title">Armênia</h3>
-                <p class="tour-description">Um roteiro a pé cheio de história, cultura e tradição: Estação Armênia, Igreja Apostólica Armênia São Jorge entre outros pontos históricos.</p>
-            </div>
+            <picture>
+                <source srcset="assets/img/armenia-p.jpg" media="(max-width: 360px)">
+                <source srcset="assets/img/armenia-m.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/armenia-g.jpg" media="(min-width: 720px)">
+                <img src="assets/img/armenia-p.jpg" alt="" class="tour-img">
+            </picture>
+            <h3 class="tour-title">Armênia</h3>
+            <p class="tour-description">Um roteiro a pé cheio de história, cultura e tradição: Estação Armênia, Igreja
+                Apostólica Armênia São Jorge entre outros pontos históricos.</p>
+        </div>
     </div>
 </section>
 
@@ -70,7 +71,9 @@ layout: layout
     <h2 id="section-speakers" class="section-heading">Palestrantes</h2>
     <p class="section-description">Conheça os palestrantes da Semana do Turismo 2019 do IFSP</p>
     <div class="section-content">
-        {% for palestrante in site.data.palestrantes %}
+        {% assign p = site.data.palestrantes | sort: 'nome' %}
+
+        {% for palestrante in p %}
         <div class="speaker">
             <picture class="speaker-img">
                 <source srcset="{{ palestrante.foto }}-p.jpg" media="(max-width: 720px)">
@@ -108,7 +111,7 @@ layout: layout
             <div class="event">
                 <p class="event-time">{{ evento.hora_de_inicio }} - {{ evento.hora_de_termino }}</p>
                 <div class="event-text">
-                    <a href="#">
+                    <a href="http://sedcitecservertest.spo.ifsp.edu.br/semana-do-turismo">
                         <h4>{{ evento.nome }}</h4>
                     </a>
                     <p>Local: {{ evento.local }}</p>
@@ -135,6 +138,6 @@ layout: layout
 <section id="section-contact" class="section section-contact">
     <div>
         <h1 class="section-heading"> Contato </h1>
-        <p>Entre em contato pelo email: xxx@xxx.com</p>
+        <p>Entre em contato pelo email: coord.tgt.dit.spo@ifsp.edu.br </p>
     </div>
 </section>
