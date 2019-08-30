@@ -1,9 +1,7 @@
-[
-    {
+[{
         "dia_da_semana": "Terça-feira",
         "data": "10/09/2019",
-        "eventos": [
-            {
+        "eventos": [{
                 "tipo": "Palestra",
                 "hora_de_inicio": "10:00",
                 "hora_de_termino": "11:30",
@@ -11,11 +9,9 @@
                 "nome": "O papel da DETUR para a Segurança do Turista",
                 "descricao": "Descrição ...",
                 "capacidade": "",
-                "palestrantes": [
-                    {
-                        "nome": "Fernanda Herbella"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Fernanda Herbella"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -25,11 +21,9 @@
                 "nome": "Dinâmicas e Jogos para gestão de pessoas",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Marcos Hideyuki Yokoyama"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Marcos Hideyuki Yokoyama"
+                }]
             },
             {
                 "tipo": "Visita tecnica",
@@ -39,9 +33,12 @@
                 "nome": "Presença Armênia na Cidade de São Paulo",
                 "descrição": "Descrição ...",
                 "capacidade": "50",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Mariana Papazian"
+                    },
+
+                    {
+                        "nome": "Leandro Rodrigues Gonzalez Fernandez"
                     }
                 ]
             },
@@ -53,11 +50,9 @@
                 "nome": "Trabalhos Desenvolvidos pelos Alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
                 "capacidade": "livre",
-                "palestrantes": [
-                    {
-                        "nome": "Centro Acadêmico"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
             },
             {
                 "tipo": "Visita Técnica",
@@ -67,11 +62,9 @@
                 "nome": "Av. Paulista (MASP e FIESP)",
                 "descrição": "Descrição ...",
                 "capacidade": "30",
-                "palestrantes": [
-                    {
-                        "nome": "Leandro Rodrigues Gonzalez Fernandez"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Leandro Rodrigues Gonzalez Fernandez"
+                }]
             },
             {
                 "tipo": "Palestra",
@@ -81,11 +74,9 @@
                 "nome": "Turismo Industrial",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Fernando Bonisio (Secretário de Turismo SBC)"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Fernando Bonisio (Secretário de Turismo SBC)"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -95,11 +86,9 @@
                 "nome": "Massas Coloridas",
                 "descrição": "Descrição ...",
                 "capacidade": "16",
-                "palestrantes": [
-                    {
-                        "nome": "Dennis Minoru Fujita"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Dennis Minoru Fujita"
+                }]
             },
             {
                 "tipo": "Apresentação de Trabalhos",
@@ -109,19 +98,16 @@
                 "nome": "Trabalhos desenvolvidos pelos alunos de Gestão de Turismo",
                 "descrição": "Descrição ...",
                 "capacidade": "Livre",
-                "palestrantes": [
-                    {
-                        "nome": "Centro Acadêmico"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
             }
         ]
     },
     {
         "dia_da_semana": "Quarta-feira",
         "data": "11/09/2019",
-        "eventos": [
-            {
+        "eventos": [{
                 "tipo": "Palestra",
                 "hora_de_inicio": "10:00",
                 "hora_de_termino": "11:30",
@@ -129,11 +115,9 @@
                 "nome": "O Papel do Pesquisador em Turismo no Brasil",
                 "descricao": "Descrição ...",
                 "capacidade": "",
-                "palestrantes": [
-                    {
-                        "nome": "Gabriela Ferreira Camargo"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Gabriela Ferreira Camargo"
+                }]
             },
             {
                 "tipo": "Lançamento de Livros",
@@ -143,8 +127,7 @@
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Camila Collpy Gonzalez Fernandez"
                     },
                     {
@@ -163,11 +146,9 @@
                 "nome": "Massas Coloridas",
                 "descrição": "Descrição ...",
                 "capacidade": "16",
-                "palestrantes": [
-                    {
-                        "nome": "Dennis Minoru Fujita"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Dennis Minoru Fujita"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -177,8 +158,7 @@
                 "nome": "Turismo 4.0: Ferramentas para Planejamento e Elaboração de Roteiros de Viagens",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Erika Sayuri Koga di Napoli"
                     },
                     {
@@ -194,11 +174,9 @@
                 "nome": "Exposição de Livros",
                 "descrição": "Descrição ...",
                 "capacidade": "Livre",
-                "palestrantes": [
-                    {
-                        "nome": "Centro Acadêmico"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
             },
             {
                 "tipo": "Visita Técnica",
@@ -208,11 +186,9 @@
                 "nome": "Av. Paulista (Itaú Cultural e SESC)",
                 "descrição": "Descrição ...",
                 "capacidade": "30",
-                "palestrantes": [
-                    {
-                        "nome": "Marina Monteiro da Silva"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Marina Monteiro da Silva"
+                }]
             },
             {
                 "tipo": "Palestra",
@@ -222,11 +198,9 @@
                 "nome": "Agenciamento e Tendências",
                 "descrição": "Descrição ...",
                 "capacidade": " ",
-                "palestrantes": [
-                    {
-                        "nome": "Rodermil Pizzo"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Rodermil Pizzo"
+                }]
             },
             {
                 "tipo": "Lançamento de Livros",
@@ -236,16 +210,15 @@
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                        {
-                            "nome": "Camila Collpy Gonzalez Fernandez"
-                        },
-                        {
-                            "nome": "Leandro Rodrigues Gonzalez Fernandez"
-                        },
-                        {
-                            "nome": "Tiago Juliano"
-                        }
+                "palestrantes": [{
+                        "nome": "Camila Collpy Gonzalez Fernandez"
+                    },
+                    {
+                        "nome": "Leandro Rodrigues Gonzalez Fernandez"
+                    },
+                    {
+                        "nome": "Tiago Juliano"
+                    }
                 ]
             },
             {
@@ -256,11 +229,9 @@
                 "nome": "Decoração em Meios de Hospedagem",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Simone Monteiro Cardoso"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Simone Monteiro Cardoso"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -270,19 +241,16 @@
                 "nome": "Dinâmicas e Jogos para Gestão de Pessoas",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Marcos Hideyuki Yokoyama"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Marcos Hideyuki Yokoyama"
+                }]
             }
         ]
     },
     {
         "dia_da_semana": "Quinta-feira",
         "data": "12/09/2019",
-        "eventos": [
-            {
+        "eventos": [{
                 "tipo": "Mesa Redonda",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
@@ -290,9 +258,14 @@
                 "nome": "Viagens e Mídias Digitais: o papel dos comunicadores virtuais no Turismo",
                 "descrição": "Descrição ...",
                 "capacidade": "",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Vinicyus Vieira (Viagem’Grafia)"
+                    },
+                    {
+                        "nome": "Camila Castanheira (Acordei quero viajar)"
+                    },
+                    {
+                        "nome": "Marian Koshiba (Instaviagem)"
                     }
                 ]
             },
@@ -304,11 +277,9 @@
                 "nome": "Treinamento em Recepção Hoteleira",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Simone Monteiro Cardoso"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Simone Monteiro Cardoso"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -318,11 +289,9 @@
                 "nome": "Sensorialidade de Vinhos Brancos e Tintos",
                 "descrição": "Descrição ...",
                 "capacidade": "20",
-                "palestrantes": [
-                    {
-                        "nome": "Raul José de Souza"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Raul José de Souza"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -332,11 +301,9 @@
                 "nome": "Plataforma Brasil e Comitê de Ética em Pesquisa",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Camila Collpy Gonzalez Fernandez"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Camila Collpy Gonzalez Fernandez"
+                }]
             },
             {
                 "tipo": "Feira de Livros",
@@ -346,11 +313,9 @@
                 "nome": "Exposição de Livros",
                 "descrição": "Descrição ...",
                 "capacidade": "Livre",
-                "palestrantes": [
-                    {
-                        "nome": "Centro Acadêmico"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Centro Acadêmico"
+                }]
             },
             {
                 "tipo": "Visita Técnica",
@@ -360,11 +325,9 @@
                 "nome": "Av. Paulista (Japan House e Itau Cultural)",
                 "descrição": "Descrição ...",
                 "capacidade": "30",
-                "palestrantes": [
-                    {
-                        "nome": "Georgia N. Garcia"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Georgia N. Garcia"
+                }]
             },
             {
                 "tipo": "Palestra",
@@ -374,11 +337,9 @@
                 "nome": "Semiótica do Turismo: a Mudança da Marca Brasil",
                 "descrição": "Descrição ...",
                 "capacidade": "",
-                "palestrantes": [
-                    {
-                        "nome": "Prof.ª Dr.ª Cyhnthia Mello (Semioturismo)"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Prof.ª Dr.ª Cyhnthia Mello (Semioturismo)"
+                }]
             },
             {
                 "tipo": "Palestra",
@@ -388,25 +349,21 @@
                 "nome": "O Movimento Cooperativo das Abelhas",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Fábio Lizier (Farmacêutico e agricultor)"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Fábio Lizier (Farmacêutico e agricultor)"
+                }]
             },
             {
                 "tipo": "Workshop",
                 "hora_de_inicio": "19:00",
                 "hora_de_termino": "21:30",
-                "local": "Labtur",
+                "local": "Sala 332A",
                 "nome": "Treinamento em Recepção Hoteleira",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Simone Monteiro Cardoso"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Simone Monteiro Cardoso"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -416,19 +373,16 @@
                 "nome": "Os Cursos FIC do Turismo e Hospitalidade",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Raul José de Souza"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Raul José de Souza"
+                }]
             }
         ]
     },
     {
         "dia_da_semana": "Sexta-feira",
         "data": "13/09/2019",
-        "eventos": [
-            {
+        "eventos": [{
                 "tipo": "Workshop",
                 "hora_de_inicio": "09:30",
                 "hora_de_termino": "11:30",
@@ -436,11 +390,9 @@
                 "nome": "Azeites, Azeitonas e Oleoturismo",
                 "descrição": "Descrição ...",
                 "capacidade": "40",
-                "palestrantes": [
-                    {
-                        "nome": "Bruno Chiavelli"
-                    }
-                ]
+                "palestrantes": [{
+                    "nome": "Bruno Chiavelli"
+                }]
             },
             {
                 "tipo": "Workshop",
@@ -450,9 +402,11 @@
                 "nome": "Reaproveitamento de Alimentos",
                 "descrição": "Descrição ...",
                 "capacidade": "20",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Rodrigo Delphino"
+                    },
+                    {
+                        "nome": "Jéssica Batista de Oliveira Gonçalves"
                     }
                 ]
             },
@@ -464,9 +418,11 @@
                 "nome": "Reaproveitamento de Alimentos",
                 "descrição": "Descrição ...",
                 "capacidade": "20",
-                "palestrantes": [
-                    {
+                "palestrantes": [{
                         "nome": "Rodrigo Delphino"
+                    },
+                    {
+                        "nome": "Jéssica Batista de Oliveira Gonçalves"
                     }
                 ]
             }
