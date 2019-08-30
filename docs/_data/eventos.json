@@ -218,6 +218,9 @@
                     },
                     {
                         "nome": "Tiago Juliano"
+                    },
+                    {
+                        "nome": "Douglas Alexandre Dias"
                     }
                 ]
             },
@@ -290,7 +293,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                    "nome": "Raul José de Souza"
+                    "nome": "Raul Jose de Souza"
                 }]
             },
             {
@@ -326,7 +329,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "30",
                 "palestrantes": [{
-                    "nome": "Georgia N. Garcia"
+                    "nome": "Geórgia Nicoletti Garcia"
                 }]
             },
             {
@@ -374,7 +377,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "40",
                 "palestrantes": [{
-                    "nome": "Raul José de Souza"
+                    "nome": "Raul Jose de Souza"
                 }]
             }
         ]
@@ -403,7 +406,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                        "nome": "Rodrigo Delphino"
+                        "nome": "Rodrigo de Benedictis Delphino"
                     },
                     {
                         "nome": "Jéssica Batista de Oliveira Gonçalves"
@@ -419,7 +422,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "20",
                 "palestrantes": [{
-                        "nome": "Rodrigo Delphino"
+                        "nome": "Rodrigo de Benedictis Delphino"
                     },
                     {
                         "nome": "Jéssica Batista de Oliveira Gonçalves"

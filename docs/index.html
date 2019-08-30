@@ -54,15 +54,16 @@ layout: layout
                 instituições culturais brasileiras.</p>
         </div>
         <div class="tour">
-                <picture>
-                    <source srcset="assets/img/armenia-p.jpg" media="(max-width: 360px)">
-                    <source srcset="assets/img/armenia-m.jpg" media="(max-width: 720px)">
-                    <source srcset="assets/img/armenia-g.jpg" media="(min-width: 720px)">
-                    <img src="assets/img/armenia-p.jpg" alt="" class="tour-img">
-                </picture>
-                <h3 class="tour-title">Armênia</h3>
-                <p class="tour-description">Um roteiro a pé cheio de história, cultura e tradição: Estação Armênia, Igreja Apostólica Armênia São Jorge entre outros pontos históricos.</p>
-            </div>
+            <picture>
+                <source srcset="assets/img/armenia-p.jpg" media="(max-width: 360px)">
+                <source srcset="assets/img/armenia-m.jpg" media="(max-width: 720px)">
+                <source srcset="assets/img/armenia-g.jpg" media="(min-width: 720px)">
+                <img src="assets/img/armenia-p.jpg" alt="" class="tour-img">
+            </picture>
+            <h3 class="tour-title">Armênia</h3>
+            <p class="tour-description">Um roteiro a pé cheio de história, cultura e tradição: Estação Armênia, Igreja
+                Apostólica Armênia São Jorge entre outros pontos históricos.</p>
+        </div>
     </div>
 </section>
 
@@ -70,7 +71,9 @@ layout: layout
     <h2 id="section-speakers" class="section-heading">Palestrantes</h2>
     <p class="section-description">Conheça os palestrantes da Semana do Turismo 2019 do IFSP</p>
     <div class="section-content">
-        {% for palestrante in site.data.palestrantes %}
+        {% assign p = site.data.palestrantes | sort: 'nome' %}
+
+        {% for palestrante in p %}
         <div class="speaker">
             <picture class="speaker-img">
                 <source srcset="{{ palestrante.foto }}-p.jpg" media="(max-width: 720px)">
