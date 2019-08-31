@@ -1,30 +1,7 @@
 [{
         "dia_da_semana": "Terça-feira",
         "data": "10/09/2019",
-        "eventos": [{
-                "tipo": "Palestra",
-                "hora_de_inicio": "10:00",
-                "hora_de_termino": "11:30",
-                "local": "Auditorio ELO2",
-                "nome": "O papel da DETUR para a Segurança do Turista",
-                "descricao": "Descrição ...",
-                "capacidade": "",
-                "palestrantes": [{
-                    "nome": "Fernanda Herbella"
-                }]
-            },
-            {
-                "tipo": "Workshop",
-                "hora_de_inicio": "09:30",
-                "hora_de_termino": "11:30",
-                "local": "Sala 332",
-                "nome": "Dinâmicas e Jogos para gestão de pessoas",
-                "descrição": "Descrição ...",
-                "capacidade": "40",
-                "palestrantes": [{
-                    "nome": "Marcos Hideyuki Yokoyama"
-                }]
-            },
+        "eventos": [
             {
                 "tipo": "Visita tecnica",
                 "hora_de_inicio": "08:00",
@@ -41,6 +18,30 @@
                         "nome": "Leandro Rodrigues Gonzalez Fernandez"
                     }
                 ]
+            },
+            {
+                "tipo": "Workshop",
+                "hora_de_inicio": "09:30",
+                "hora_de_termino": "11:30",
+                "local": "Sala 332",
+                "nome": "Dinâmicas e Jogos para gestão de pessoas",
+                "descrição": "Descrição ...",
+                "capacidade": "40",
+                "palestrantes": [{
+                    "nome": "Marcos Hideyuki Yokoyama"
+                }]
+            },
+            {
+                "tipo": "Palestra",
+                "hora_de_inicio": "10:00",
+                "hora_de_termino": "11:30",
+                "local": "Auditorio ELO2",
+                "nome": "O papel da DETUR para a Segurança do Turista",
+                "descricao": "Descrição ...",
+                "capacidade": "",
+                "palestrantes": [{
+                    "nome": "Fernanda Herbella"
+                }]
             },
             {
                 "tipo": "Apresentão de Trabalho",
@@ -121,8 +122,8 @@
             },
             {
                 "tipo": "Lançamento de Livros",
-                "hora_de_inicio": "19:00",
-                "hora_de_termino": "21:30",
+                "hora_de_inicio": "09:00",
+                "hora_de_termino": "11:30",
                 "local": "Sala 330",
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
@@ -204,8 +205,8 @@
             },
             {
                 "tipo": "Lançamento de Livros",
-                "hora_de_inicio": "09:00",
-                "hora_de_termino": "11:30",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
                 "local": "Sala 330",
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
@@ -262,13 +263,13 @@
                 "descrição": "Descrição ...",
                 "capacidade": "",
                 "palestrantes": [{
-                        "nome": "Vinicyus Vieira (Viagem’Grafia)"
+                        "nome": "Vinicyus Vieira"
                     },
                     {
-                        "nome": "Camila Castanheira (Acordei quero viajar)"
+                        "nome": "Camila Castanheira"
                     },
                     {
-                        "nome": "Marian Koshiba (Instaviagem)"
+                        "nome": "Marian Koshiba"
                     }
                 ]
             },
@@ -341,7 +342,7 @@
                 "descrição": "Descrição ...",
                 "capacidade": "",
                 "palestrantes": [{
-                    "nome": "Prof.ª Dr.ª Cyhnthia Mello (Semioturismo)"
+                    "nome": "Cyhnthia Mello"
                 }]
             },
             {
