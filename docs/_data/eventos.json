@@ -1,5 +1,5 @@
 [{
-        "dia_da_semana": "Terça-feira",
+        "dia_da_semana": "Terça-feira (10/09/2019)",
         "data": "10/09/2019",
         "eventos": [
             {
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "dia_da_semana": "Quarta-feira",
+        "dia_da_semana": "Quarta-feira (11/09/2019)",
         "data": "11/09/2019",
         "eventos": [{
                 "tipo": "Palestra",
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "dia_da_semana": "Quinta-feira",
+        "dia_da_semana": "Quinta-feira (12/09/2019)",
         "data": "12/09/2019",
         "eventos": [{
                 "tipo": "Mesa Redonda",
@@ -384,7 +384,7 @@
         ]
     },
     {
-        "dia_da_semana": "Sexta-feira",
+        "dia_da_semana": "Sexta-feira (13/09/2019)",
         "data": "13/09/2019",
         "eventos": [{
                 "tipo": "Workshop",
