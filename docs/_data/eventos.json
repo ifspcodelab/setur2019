@@ -121,8 +121,8 @@
             },
             {
                 "tipo": "Lançamento de Livros",
-                "hora_de_inicio": "09:30",
-                "hora_de_termino": "11:30",
+                "hora_de_inicio": "19:00",
+                "hora_de_termino": "21:30",
                 "local": "Sala 330",
                 "nome": "Mesa: Turismo, Patrimônio, Culturas e Imigrantes",
                 "descrição": "Descrição ...",
