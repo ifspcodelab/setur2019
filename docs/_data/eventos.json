@@ -56,18 +56,6 @@
                 }]
             },
             {
-                "tipo": "Palestra",
-                "hora_de_inicio": "10:00",
-                "hora_de_termino": "11:30",
-                "local": "A definir",
-                "nome": "Sinergia entre Games e Turismo: fronteiras entre o real e o virtual",
-                "descricao": "Descrição ...",
-                "capacidade": "",
-                "palestrantes": [{
-                    "nome": "Francisco Tupy"
-                }]
-            },
-            {
                 "tipo": "Visita Técnica",
                 "hora_de_inicio": "14:00",
                 "hora_de_termino": "17:00",
@@ -113,6 +101,17 @@
                 "capacidade": "Livre",
                 "palestrantes": [{
                     "nome": "Centro Acadêmico"
+                },
+                                {
+                "tipo": "Palestra",
+                "hora_de_inicio": "20:00",
+                "hora_de_termino": "21:30",
+                "local": "A definir",
+                "nome": "Sinergia entre Games e Turismo: fronteiras entre o real e o virtual",
+                "descricao": "Descrição ...",
+                "capacidade": "",
+                "palestrantes": [{
+                    "nome": "Francisco Tupy"
                 }]
             }
         ]
