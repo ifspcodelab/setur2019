@@ -79,7 +79,7 @@ layout: layout
                 <source srcset="{{ palestrante.foto }}-p.jpg" media="(max-width: 720px)">
                 <source srcset="{{ palestrante.foto }}-m.jpg" media="(max-width: 1368px)">
                 <source srcset="{{ palestrante.foto }}-g.jpg" media="(min-width: 1368px)">
-                <img src="assets/img/default-p.jpg" alt="" class="speaker-img">
+                <img src="assets/img/default-p.jpg" alt="{{ palestrante.nome }}" title="{{ palestrante.nome }}"  class="speaker-img">
             </picture>
 
             <div class="speaker-text">
@@ -120,10 +120,8 @@ layout: layout
                     {% for palestrante in site.data.palestrantes %}
                     {% for x in evento.palestrantes %}
                     {% if palestrante.nome == x.nome %}
-                    <img src="{{ palestrante.foto }}-p.jpg" alt="palestrante">
+                    <img src="{{ palestrante.foto }}-p.jpg" alt="{{ palestrante.nome }}" title="{{ palestrante.nome }}" >
                     {% else %}
-
-
                     {% endif %}
                     {% endfor %}
                     {% endfor %}
